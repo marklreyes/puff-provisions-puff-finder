@@ -19,7 +19,7 @@ The above command will create `http://localhost:8000/` using the following input
 | ------------- |:-------------:|:-------------:|
 | `/public`      |  `/wp-content`  |   All of the international flags used for data display.
 | `/public`      |  index.html  |   What the web browser will be seeing while on `http://localhost:8000/`.
-| `/src`      |  `/services`  |   Source your own API keys ffrom [Otreeba and the Open Cannabis API](https://otreeba.com/) through [RapidAPI](https://rapidapi.com/).
+| `/src`      |  `/services`  |   Source your own API keys from [Otreeba and the Open Cannabis API](https://otreeba.com/) through [RapidAPI](https://rapidapi.com/).
 | App.vue      |    |   The root of your application defined in Vue.js Component file format.
 | main.js      |    |   File that will initialize this root component into a element on your page. It is also responsible for setting up plugins and third-party components you may want to use in your app.
 | env.dev      |    |   Not committed to this repo. Source your own API keys from [Otreeba and the Open Cannabis API](https://otreeba.com/) through [RapidAPI](https://rapidapi.com/).
