@@ -25,6 +25,12 @@ The above command will create `http://localhost:8000/` using the following input
 | env.dev      |    |   Not committed to this repo. Source your own API keys from [Otreeba and the Open Cannabis API](https://otreeba.com/) through [RapidAPI](https://rapidapi.com/).
 | env.prod      |    |   Not committed to this repo. Source your own API keys from [Otreeba and the Open Cannabis API](https://otreeba.com/) through [RapidAPI](https://rapidapi.com/).
 
+```
+VUE_APP_ROOT_API=INSERT_RAPIDAPI_URL_HERE
+VUE_APP_HOST=INSERT_RAPIDAPI_HOST_HERE
+VUE_APP_KEY=INSERT_RAPIDAPI_API_HERE
+```
+The above represents an example of what your `env.dev` and `env.prod` file would look like.
 
 ### Compiles and minifies for production
 ```
